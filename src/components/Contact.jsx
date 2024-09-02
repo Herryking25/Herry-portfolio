@@ -9,7 +9,7 @@ const Contact = () => {
 
         // Trigger the file download
         const link = document.createElement('a');
-        link.href = 'images/my cv.pdf';  // Replace with the actual path to your file
+        link.href = 'Herry-portfolio\src\assets\images\my cv.pdf';  // Replace with the actual path to your file
         link.download = 'Bolatito Heritage cv.pdf';  // Replace with the desired download file name
         link.click();
 
@@ -33,7 +33,7 @@ const Contact = () => {
                                 <div className='mt-2.5'>
                                     <input type="text" name="name" id='fullname' placeholder='Your Name' 
                                     className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border
-                                    border-gray-700 rounded-md focus:outline-none focus:border-pink-600'/>
+                                    border-gray-700 rounded-md focus:outline-none focus:border-pink-600' required/>
                                 </div>
                             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                                 <div className='mt-2.5'>
                                     <input type="email" name="email" id='mail' placeholder='Your E-mail' 
                                     className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border
-                                    border-gray-700 rounded-md focus:outline-none focus:border-pink-600'/>
+                                    border-gray-700 rounded-md focus:outline-none focus:border-pink-600' required/>
                                 </div>
                             </div>
 
