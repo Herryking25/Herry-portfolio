@@ -30,11 +30,11 @@ const Hero = () => {
                     My name is Bolatito Heritage, experienced web developer
             </p>
             <div className='my-8'>
-                <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-600
+                <a href="#contact" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-600
                 text-white'>
                     Download CV
                 </a>
-                <a href="/" className='px-6 py-3 w-full rounded-xl border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-600
+                <a href="#contact" className='px-6 py-3 w-full rounded-xl border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-600
                 text-white hover:border-none'>
                     Contact
                 </a>
