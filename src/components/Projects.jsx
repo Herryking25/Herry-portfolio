@@ -5,6 +5,8 @@ import proj3 from '../assets/images/proj3.png'
 import proj4 from '../assets/images/proj4.png'
 import proj5 from '../assets/images/proj5.png'
 import proj6 from '../assets/images/proj6.png'
+import p from '../assets/images/P.png'
+import p1 from '../assets/images/P1.png'
 
 const Projects = () => {
   return (
@@ -17,12 +19,12 @@ const Projects = () => {
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                 h-[200px] bg-cover relative'>
-                <img src={proj1} alt="" />
+                <img src={p} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-gray/70 absolute inset-0 flex flex-col 
                     justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
+                        <a href="konserve-app.vercel.app">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold 
                             text-lg'>
                                 Live
@@ -36,12 +38,12 @@ const Projects = () => {
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                 h-[200px] bg-cover relative'>
-                <img src={proj2} alt="" />
+                <img src={p1} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-gray/70 absolute inset-0 flex flex-col 
                     justify-center items-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
+                        <a href="https://schoolweb-six.vercel.app/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold 
                             text-lg'>
                                 Live
