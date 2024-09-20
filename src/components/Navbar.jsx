@@ -16,11 +16,11 @@ const Navbar = () => {
     <div className="bg-black text-gray-400 h-[100px] w-full mx-auto flex justify-between items-center fixed">
         <h1 className="text-3xl font-bold primary-color ml-4">B.Herry</h1>
         <ul className="hidden md:flex">
-            <li className="p-5"><Link to="home" smooth={true} duration={500}>Home</Link></li>
-            <li className="p-5"><Link to="about" smooth={true} duration={500}>About</Link></li>
-            <li className="p-5"><Link to="project" smooth={true} duration={500}>Project</Link></li>
-            <li className="p-5"><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
-            <li className="p-5"><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+            <li className="p-5 cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
+            <li className="p-5 cursor-pointer"><Link to="about" smooth={true} duration={500}>About</Link></li>
+            <li className="p-5 cursor-pointer"><Link to="project" smooth={true} duration={500}>Project</Link></li>
+            <li className="p-5 cursor-pointer"><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+            <li className="p-5 cursor-pointer"><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
         </ul>
 
             <div onClick={handleNav} className="block md:hidden mr-6">
