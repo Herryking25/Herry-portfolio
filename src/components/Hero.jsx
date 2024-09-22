@@ -6,7 +6,7 @@ import DownloadCV from './DownloadCv'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
+    <div name="home" className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
       <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]'>
             <img src={heroImage} alt="hero" className='w-60 sm:ml-20 rounded-full' />
       </div>

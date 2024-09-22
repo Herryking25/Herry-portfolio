@@ -6,19 +6,24 @@ import DownloadCV from './DownloadCv';
 
 const ContactMe = () => {
   return (
-    <div>
-      <div className='text-white flex flex-col justify-center items-start mt-4 ml-24'>
+    <div className='max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id='contact'>
+        <div className='text-center'>
+            <h2 className='text-4xl font-bold leading-tight primary-color'>
+                Contact
+            </h2>
+      </div>
+      <div className='text-white text-[20px] flex flex-col justify-center items-start mt-4 ml-24'>
         <div className='flex justify-center items-center gap-4 text-block mb-4'>
             <FaGithub size={30} />
-            <h1><a href="https://github.com/Herryking25">Herryking</a></h1>
+            <h1 className='primary-color'><a href="https://github.com/Herryking25">Herryking</a></h1>
         </div>
         <div className='flex justify-center items-center gap-4 text-block mb-4'>
             <SiGmail size={30} />
-            <h1><a href="bolatitoheritage25@gmail.com">bolatitoheritage25@gmail.com</a></h1>
+            <h1 className='primary-color'><a href="bolatitoheritage25@gmail.com">bolatitoheritage25@gmail.com</a></h1>
         </div>
         <div className='flex justify-center items-center gap-4 text-block mb-4'>
         <FaPhoneSquareAlt size={30}/>
-        <h1>
+        <h1 className='primary-color'>
             +2349132747510
         </h1>
         </div>
