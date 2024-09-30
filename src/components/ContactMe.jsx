@@ -12,7 +12,7 @@ const ContactMe = () => {
                 Contact
             </h2>
       </div>
-      <div className='text-white text-[20px] flex flex-col justify-center items-start mt-4 ml-24'>
+      <div className='text-white text-[20px] flex flex-col justify-start sm:justify-center sm:ml-24 items-start mt-4'>
         <div className='flex justify-center items-center gap-4 text-block mb-4'>
             <FaGithub size={30} />
             <h1 className='primary-color'><a href="https://github.com/Herryking25">Herryking</a></h1>

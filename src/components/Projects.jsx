@@ -7,6 +7,7 @@ import React from 'react'
 // import proj6 from '../assets/images/proj6.png'
 import konserve from '../assets/images/konserve.png'
 import schoolwebsite from '../assets/images/schoolwebsite.png'
+import portfolio from '../assets/images/Portfolio.png'
 
 const Projects = () => {
   return (
@@ -54,28 +55,28 @@ const Projects = () => {
 
             </div>
 
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
+                shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                h-[200px] bg-cover relative'>
+                <img src={portfolio} alt="" />
+                <div className='opacity-0 group-hover:opacity-90 bg-gray/70 absolute inset-0 flex flex-col 
+                    justify-center items-center'>
+                    <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
+                    <div className='pt-8 text-center'>
+                        <a href="/">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold 
+                            text-lg'>
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
             {/* <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                 h-[200px] bg-cover relative'>
-                <img src={konserve} alt="" />
-                <div className='opacity-0 group-hover:opacity-90 bg-gray/70 absolute inset-0 flex flex-col 
-                    justify-center items-center'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
-                    <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold 
-                            text-lg'>
-                                Live
-                            </button>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
-                shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
-                h-[200px] bg-cover relative'>
                 <img src={schoolwebsite} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-gray/70 absolute inset-0 flex flex-col 
                     justify-center items-center'>
@@ -126,9 +127,9 @@ const Projects = () => {
                             </button>
                         </a>
                     </div>
-                </div> */}
+                </div>
 
-            {/* </div> */}
+            </div> */}
         </div>
       
     </div>
