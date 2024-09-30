@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     
-    <div className="bg-black text-gray-400 h-[60px] w-full mx-auto flex justify-between items-center fixed">
+    <div className="bg-black text-gray-400 h-[60px] w-full mx-auto flex justify-between items-center fixed z-50">
         <h1 className="text-3xl font-bold primary-color ml-4">B.Herry</h1>
         <ul className="hidden md:flex">
             <li className="p-5 cursor-pointer"><Link to="home" smooth={true} duration={500}>Home</Link></li>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 {nav ? <AiOutlineCloseCircle size={20} /> : <AiOutlineMenu size={20} />}
             </div>
             <div className={nav ? 'fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in duration-500'
-                : 'fixed left-[-100%]'}>
+                : 'fixed left-[-100%] z-50'}>
                 <h1 className="text-3xl primary-color m-4">
                     B.Herry
                 </h1>
