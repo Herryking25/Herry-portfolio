@@ -17,7 +17,7 @@ const Hero = () => {
                 <TypeAnimation
                     sequence={[
                         "Frontend Dev",
-                        1000,
+                        1000,   
                         "UI/UX Designer",
                         1000,
                     ]}
