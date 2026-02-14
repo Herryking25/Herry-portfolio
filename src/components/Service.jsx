@@ -4,6 +4,7 @@ import css from '../assets/images/css.png'
 import javascript from '../assets/images/javascript.png'
 import tailwind from '../assets/images/tailwind.png'
 import react from '../assets/images/react.png'
+import next from '../assets/images/Nextjs.png'
 
 const Service = () => {
   return (
@@ -37,6 +38,11 @@ const Service = () => {
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img src={react} alt="" />
             <p className='mt-2'>React</p>
+        </div>
+
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img src={next} alt="" />
+            <p className='mt-2'>Next.js</p>
         </div>
       
     </div>

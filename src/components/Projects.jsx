@@ -1,6 +1,7 @@
 import React from 'react'
 import konserve from '../assets/images/konserve.png'
 import schoolwebsite from '../assets/images/schoolwebsite.png'
+import fantsayballer from '../assets/images/Fantasyballer.png'
 import portfolio from '../assets/images/Portfolio.png'
 import arete from '../assets/images/arete.png'
 import shoppingsite from '../assets/images/Shoppingsite.png'
@@ -53,12 +54,12 @@ const Projects = () => {
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                 h-[200px] bg-cover relative'>
-                <img src={portfolio} alt="" />
+                <img src={fantsayballer} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-gray/70 absolute inset-0 flex flex-col 
                     justify-center items-center'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
+                    <span className='text-2xl font-bold text-white tracking-wider'>Fantasy Baller</span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
+                        <a href="https://fantasyballerleague.netlify.app/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold 
                             text-lg'>
                                 Live
@@ -70,7 +71,7 @@ const Projects = () => {
             </div>
 
 
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
+            {/* <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
                 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                 h-[200px] bg-cover relative'>
                 <img src={arete} alt="" />
@@ -87,7 +88,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
 
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden
